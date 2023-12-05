@@ -1,0 +1,81 @@
+e1 1
+e11 3
+e111 2
+#
+#
+e112 2
+#
+#
+e12 1
+e121 2
+#
+#
+e122 3
+#
+#
+plazas_libres
+alta_bici b1 e12
+pl
+ab b1 e122
+ab b1 e404
+ab b2 e404
+ab b2 e12
+estacion_bici b1
+eb b404
+baja_bici b404
+bb b1
+ab b1 e12
+ab b2 e122
+ab b3 e122
+bicis_estacion e12
+be e122
+be e404
+be e1
+mover_bici b404 e1
+mb b1 e1
+viajes_bici b1
+vb b404
+vb b3
+mb b3 e404
+mb b3 e122
+mb b3 e1
+ab b4 e11
+modificar_capacidad e1 2
+mc e122 2
+mc e122 1
+be e1
+be e11
+be e111
+be e112
+be e12
+be e121
+be e122
+subir_bicis
+be e1
+be e11
+be e111
+be e112
+be e12
+be e121
+be e122
+mc e1 3
+sb
+be e1
+be e11
+be e111
+be e112
+be e12
+be e121
+be e122
+asignar_estacion c1
+ae c2
+ae c3
+ae c4
+ae c5
+ae c6
+ae c7
+ae c8
+ae c9
+ae c10
+ae c11
+fin

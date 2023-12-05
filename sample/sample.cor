@@ -1,0 +1,108 @@
+#pl
+14
+#ab b1 e12
+#pl
+13
+#ab b1 e122
+error: la bici ya existe
+#ab b1 e404
+error: la bici ya existe
+#ab b2 e404
+error: la estacion no existe
+#ab b2 e12
+error: la bici no cabe
+#eb b1
+e12
+#eb b404
+error: la bici no existe
+#bb b404
+error: la bici no existe
+#bb b1
+#ab b1 e12
+#ab b2 e122
+#ab b3 e122
+#be e12
+b1
+#be e122
+b2
+b3
+#be e404
+error: la estacion no existe
+#be e1
+#mb b404 e1
+error: la bici no existe
+#mb b1 e1
+#vb b1
+e12 e1
+#vb b404
+error: la bici no existe
+#vb b3
+#mb b3 e404
+error: la estacion no existe
+#mb b3 e122
+error: la bici ya esta en el sitio
+#mb b3 e1
+error: la bici no cabe
+#ab b4 e11
+#mc e1 2
+#mc e122 2
+#mc e122 1
+error: capacidad insuficiente
+#be e1
+b1
+#be e11
+b4
+#be e111
+#be e112
+#be e12
+#be e121
+#be e122
+b2
+b3
+#sb
+#be e1
+b1
+b4
+#be e11
+#be e111
+#be e112
+#be e12
+b2
+#be e121
+#be e122
+b3
+#mc e1 3
+#sb
+#be e1
+b1
+b2
+b4
+#be e11
+#be e111
+#be e112
+#be e12
+b3
+#be e121
+#be e122
+#ae c1
+e11
+#ae c2
+e11
+#ae c3
+e111
+#ae c4
+e112
+#ae c5
+e121
+#ae c6
+e11
+#ae c7
+e111
+#ae c8
+e112
+#ae c9
+e121
+#ae c10
+e122
+#ae c11
+error: no hay plazas libres
